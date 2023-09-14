@@ -29,3 +29,18 @@ h1{
 .post:hover{
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
+
+
+/* responsiveness  */
+@media screen and (max-width: 992px) {
+    .post{
+        width: 48%;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .post{
+        width: 100%;
+    }
+    
+}

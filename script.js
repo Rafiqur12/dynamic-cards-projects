@@ -1,35 +1,35 @@
 const posts =[
     {
         title : "this is title 1",
-        boddy : "this is body1"
+        body : "this is body1",
     },
     {
         title : "this is title 2",
-        boddy : "this is body2"
+        body : "this is body2",
     },
     {
         title : "this is title3",
-        boddy : "this is body3"
+        body : "this is body3",
     },
     {
         title : "this is title 4",
-        boddy : "this is body4"
+        body : "this is body4",
     },
     {
         title : "this is title 5",
-        boddy : "this is body5"
+        body : "this is body5",
     },
     {
         title : "this is title 6",
-        boddy : "this is body6"
+        body : "this is body6",
     },
     {
         title : "this is title 1",
-        boddy : "this is body1"
+        body : "this is body1",
     },
     {
         title : "this is title 1",
-        boddy : "this is body1"
+        body : "this is body1",
     },
 ];
 
@@ -45,8 +45,8 @@ const loadAllData = () => {
         const postElement = document.createElement("div");
         postElement.classList.add("post");
         postElement.innerHTML = `
-        <h4 class="post-title">${posts.title}</h4>
-        <p class="post-body">${posts.body}</p>
+        <h4 class="post-title">${post.title}</h4>
+        <p class="post-body">${post.body}</p>
         `;
         postsElement.appendChild(postElement);
     });
